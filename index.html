@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel d'Aboubacar Soumahoro - Technicien Support Informatique N1/N2 & Intégrateur Web. Dépannage IT, déploiement Windows 10/11, développement web front-end.">
+  <meta name="author" content="Aboubacar Soumahoro">
+  <meta name="keywords" content="Support Informatique, Technicien IT, Développeur Web, Helpdesk, N1, N2, Windows 10, Windows 11, Bootstrap, HTML5, CSS3, JavaScript, Aboubacar Soumahoro">
+
+  <title>Aboubacar Soumahoro | Technicien Support IT & Intégrateur Web</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- FontAwesome 6 Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Feuille de styles personnalisée -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="100" tabindex="0">
+
+  <!-- ==========================================================================
+       1. HEADER & BARRE DE NAVIGATION
+       ========================================================================== -->
+  <header>
+    <nav id="navbarMain" class="navbar navbar-expand-lg navbar-custom fixed-top">
+      <div class="container">
+        <!-- Logo textuel moderne AS.tech -->
+        <a class="navbar-brand" href="#hero">
+          <span>AS</span><span class="brand-badge">.</span><span class="brand-sub">tech</span>
+        </a>
+
+        <!-- Bouton Menu Mobile (Hamburger) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Liens ancrés de navigation -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#atouts">Atouts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competences">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projets">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">Expériences</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a class="btn btn-tech-primary btn-sm px-3" href="#contact">
+                <i class="fas fa-paper-plane me-1"></i> Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO SECTION (ACCUEIL)
+         ========================================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Colonne Texte & Présentation -->
+          <div class="col-lg-7">
+            <div class="hero-status-pill">
+              <span class="pulse-dot"></span>
+              <span>Ouvert aux opportunités IT & Développeur Front-End</span>
+            </div>
+
+            <h1 class="hero-title">
+              Bonjour, je suis <br>
+              <span class="text-gradient">ABOUBACAR SOUMAHORO</span>
+            </h1>
+
+            <h2 class="h4 text-cyan fw-semibold mb-3">
+              Assistant Informatique Support / Technicien IT &amp; Intégrateur Web
+            </h2>
+
+            <p class="hero-lead">
+              "Spécialiste du support technique (N1/N2, Windows 10/11, dépannage &amp; parc IT) passionné par l'intégration web et la création d'outils interactifs."
+            </p>
+
+            <!-- Actions principales -->
+            <div class="d-flex flex-wrap gap-3 pt-2">
+              <a href="#projets" class="btn-tech-primary">
+                <span>Découvrir mes projets</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn-tech-outline">
+                <i class="fas fa-file-arrow-down"></i>
+                <span>Télécharger mon CV</span>
+              </a>
+            </div>
+
+            <!-- Badges récapitulatifs rapides -->
+            <div class="d-flex flex-wrap gap-2 mt-4 pt-2">
+              <span class="badge rounded-pill bg-dark border border-secondary text-secondary py-2 px-3">
+                <i class="fas fa-headset text-cyan me-1"></i> Support N1 / N2
+              </span>
+              <span class="badge rounded-pill bg-dark border border-secondary text-secondary py-2 px-3">
+                <i class="fab fa-windows text-blue me-1"></i> Déploiement Win 10/11
+              </span>
+              <span class="badge rounded-pill bg-dark border border-secondary text-secondary py-2 px-3">
+                <i class="fab fa-bootstrap text-cyan me-1"></i> Web Responsive
+              </span>
+            </div>
+          </div>
+
+          <!-- Colonne Visuelle : Carte Interactive Tech / Terminal -->
+          <div class="col-lg-5">
+            <div class="tech-terminal">
+              <!-- En-tête de fenêtre stylisée -->
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <div class="terminal-dot dot-red"></div>
+                  <div class="terminal-dot dot-yellow"></div>
+                  <div class="terminal-dot dot-green"></div>
+                </div>
+                <div class="terminal-title">bash — as-terminal@sysadmin</div>
+                <div><i class="fas fa-microchip text-muted"></i></div>
+              </div>
+
+              <!-- Corps du terminal -->
+              <div class="terminal-body">
+                <div class="code-line">
+                  <span class="code-prompt">visitor@as-portfolio:~$</span>
+                  <span class="code-val"> cat profile.json</span>
+                </div>
+                <div class="code-line text-muted">{</div>
+                <div class="code-line ps-3">
+                  <span class="code-key">"name"</span>: <span class="code-string">"Aboubacar Soumahoro"</span>,
+                </div>
+                <div class="code-line ps-3">
+                  <span class="code-key">"role"</span>: <span class="code-string">"Support IT &amp; Intégrateur Web"</span>,
+                </div>
+                <div class="code-line ps-3">
+                  <span class="code-key">"location"</span>: <span class="code-string">"Côte d'Ivoire"</span>,
+                </div>
+                <div class="code-line ps-3">
+                  <span class="code-key">"skills_core"</span>: [<span class="code-string">"Support N1/N2"</span>, <span class="code-string">"Windows 10/11"</span>, <span class="code-string">"Front-End"</span>],
+                </div>
+                <div class="code-line ps-3">
+                  <span class="code-key">"current_status"</span>: <span class="code-keyword">"En poste / Stage Prosuma"</span>
+                </div>
+                <div class="code-line text-muted">}</div>
+
+                <div class="code-line mt-3">
+                  <span class="code-prompt">visitor@as-portfolio:~$</span>
+                  <span class="text-cyan"> ping -c 1 user-satisfaction</span>
+                </div>
+                <div class="code-line text-success">
+                  <i class="fas fa-check-circle me-1"></i> 64 bytes: 0% packet loss, service opérationnel.
+                </div>
+
+                <!-- Métriques clés -->
+                <div class="terminal-metrics">
+                  <div class="metric-item">
+                    <div class="metric-number">100%</div>
+                    <div class="metric-label">Support &amp; Rigueur</div>
+                  </div>
+                  <div class="metric-item">
+                    <div class="metric-number">Double</div>
+                    <div class="metric-label">Compétence IT + Dev</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SECTION ATOUTS CLÉS (3 CARTES DISTINCTES)
+         ========================================================================== -->
+    <section id="atouts" class="section-padding bg-dark-subtle" style="background-color: var(--bg-secondary) !important;">
+      <div class="container">
+        <div class="text-center section-header">
+          <span class="section-tag"><i class="fas fa-bolt"></i> Valeur Ajoutée</span>
+          <h2 class="section-title">Mes Atouts Clés</h2>
+          <p class="section-subtitle">
+            Une synergie unique combinant expertise terrain en support informatique, compétences en développement web moderne et qualités relationnelles.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1 : Support & Maintenance IT -->
+          <div class="col-md-6 col-lg-4">
+            <div class="tech-card atout-card">
+              <div class="atout-icon-box">
+                <i class="fas fa-screwdriver-wrench"></i>
+              </div>
+              <h3 class="h4 mb-3">Support &amp; Maintenance IT</h3>
+              <p>
+                Déploiement Windows 10/11, masterisation, diagnostic matériel et résolution rapide des incidents utilisateurs N1/N2 pour garantir la continuité opérationnelle.
+              </p>
+              <ul class="atout-list">
+                <li><i class="fas fa-check"></i> Déploiement &amp; masterisation d'OS</li>
+                <li><i class="fas fa-check"></i> Gestion de parc &amp; tickets d'incidents</li>
+                <li><i class="fas fa-check"></i> Dépannage matériel &amp; logiciel</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2 : Intégration Web Front-End -->
+          <div class="col-md-6 col-lg-4">
+            <div class="tech-card atout-card">
+              <div class="atout-icon-box">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3 class="h4 mb-3">Intégration Web Front-End</h3>
+              <p>
+                Création de sites et d'applications interactives, responsive et modernes avec HTML5, CSS3, Bootstrap 5 et contrôle de versions avec Git/GitHub.
+              </p>
+              <ul class="atout-list">
+                <li><i class="fas fa-check"></i> Interfaces responsives &amp; fluides</li>
+                <li><i class="fas fa-check"></i> Intégration soignée avec Bootstrap 5</li>
+                <li><i class="fas fa-check"></i> Versioning &amp; déploiement Git / GitHub</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3 : Pédagogie & Relation Client -->
+          <div class="col-md-6 col-lg-4">
+            <div class="tech-card atout-card">
+              <div class="atout-icon-box">
+                <i class="fas fa-users-gear"></i>
+              </div>
+              <h3 class="h4 mb-3">Pédagogie &amp; Relation Client</h3>
+              <p>
+                Sens de l'écoute, vulgarisation technique et accompagnement utilisateur issus de mon expérience d'enseignant pour rassurer et guider efficacement.
+              </p>
+              <ul class="atout-list">
+                <li><i class="fas fa-check"></i> Écoute active et vulgarisation claire</li>
+                <li><i class="fas fa-check"></i> Formation et autonomisation des utilisateurs</li>
+                <li><i class="fas fa-check"></i> Rédaction de procédures guidées</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. SECTION COMPÉTENCES (BADGES & GRILLES INTERACTIVES)
+         ========================================================================== -->
+    <section id="competences" class="section-padding">
+      <div class="container">
+        <div class="text-center section-header">
+          <span class="section-tag"><i class="fas fa-code-branch"></i> Savoir-Faire</span>
+          <h2 class="section-title">Compétences Techniques</h2>
+          <p class="section-subtitle">
+            Un socle technique polyvalent structuré autour de l'environnement système, du web et des réseaux d'entreprise.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Bloc 1 : Support & Systèmes -->
+          <div class="col-lg-4">
+            <div class="skills-card">
+              <div class="skills-category-header">
+                <div class="skills-cat-icon">
+                  <i class="fas fa-desktop"></i>
+                </div>
+                <div>
+                  <h3 class="h5 mb-0 text-white">Support &amp; Systèmes</h3>
+                  <small class="text-muted">Environnement d'exploitation</small>
+                </div>
+              </div>
+              <p class="small text-secondary mb-3">
+                Administration quotidienne, assistance utilisateur et maintenance préventive/curative des postes de travail.
+              </p>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fab fa-windows"></i> Windows 10/11</span>
+                <span class="skill-badge"><i class="fas fa-id-badge"></i> Active Directory</span>
+                <span class="skill-badge"><i class="fab fa-microsoft"></i> Microsoft 365</span>
+                <span class="skill-badge"><i class="fas fa-ticket"></i> GLPI / Jira</span>
+                <span class="skill-badge"><i class="fas fa-headset"></i> AnyDesk &amp; TeamViewer</span>
+                <span class="skill-badge"><i class="fas fa-microchip"></i> Diagnostic matériel</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bloc 2 : Développement Web -->
+          <div class="col-lg-4">
+            <div class="skills-card">
+              <div class="skills-category-header">
+                <div class="skills-cat-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div>
+                  <h3 class="h5 mb-0 text-white">Développement Web</h3>
+                  <small class="text-muted">Front-End &amp; Intégration</small>
+                </div>
+              </div>
+              <p class="small text-secondary mb-3">
+                Conception d'interfaces web ergonomiques, respectueuses des standards modernes et adaptées à tous les écrans.
+              </p>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fab fa-html5"></i> HTML5 Sémantique</span>
+                <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3 &amp; Flex/Grid</span>
+                <span class="skill-badge"><i class="fab fa-bootstrap"></i> Bootstrap 5</span>
+                <span class="skill-badge"><i class="fab fa-js"></i> JavaScript (Notions)</span>
+                <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+                <span class="skill-badge"><i class="fab fa-github"></i> GitHub</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bloc 3 : Réseaux & Méthodes -->
+          <div class="col-lg-4">
+            <div class="skills-card">
+              <div class="skills-category-header">
+                <div class="skills-cat-icon">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <div>
+                  <h3 class="h5 mb-0 text-white">Réseaux &amp; Méthodes</h3>
+                  <small class="text-muted">Connectivité &amp; Rigueur</small>
+                </div>
+              </div>
+              <p class="small text-secondary mb-3">
+                Diagnostic de connectivité réseau, protocoles essentiels et formalisation de documentations techniques.
+              </p>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fas fa-diagram-project"></i> TCP/IP</span>
+                <span class="skill-badge"><i class="fas fa-wifi"></i> Wi-Fi &amp; LAN</span>
+                <span class="skill-badge"><i class="fas fa-shield-halved"></i> VPN</span>
+                <span class="skill-badge"><i class="fas fa-terminal"></i> Ping / DNS / Tracert</span>
+                <span class="skill-badge"><i class="fas fa-book"></i> Procédures techniques</span>
+                <span class="skill-badge"><i class="fas fa-check-double"></i> Méthodologie N1/N2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. SECTION PROJETS (FOCUS RÉALISATIONS)
+         ========================================================================== -->
+    <section id="projets" class="section-padding" style="background-color: var(--bg-secondary) !important;">
+      <div class="container">
+        <div class="text-center section-header">
+          <span class="section-tag"><i class="fas fa-briefcase"></i> Portfolio</span>
+          <h2 class="section-title">Mes Projets Réalisés</h2>
+          <p class="section-subtitle">
+            Découvrez une sélection de réalisations combinant développement d'applications web et outils orientés technologie.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Projet 1 : Générateur de CV Interactif & Application Web -->
+          <div class="col-lg-6">
+            <div class="tech-card project-card">
+              <div>
+                <!-- Visuel Projet -->
+                <div class="project-visual">
+                  <span class="project-type-tag">Application Web</span>
+                  <i class="fas fa-file-invoice project-visual-icon"></i>
+                </div>
+
+                <h3 class="h4 mb-2">Générateur de CV Interactif &amp; Application Web</h3>
+                <p>
+                  Application web permettant aux utilisateurs de concevoir, personnaliser en temps réel et exporter un CV professionnel soigné. Solution responsive optimisée pour l'expérience utilisateur et hébergée sur GitHub Pages / Vercel.
+                </p>
+
+                <!-- Badges technologiques -->
+                <div class="project-tags">
+                  <span class="project-tag"><i class="fab fa-html5"></i> HTML5</span>
+                  <span class="project-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                  <span class="project-tag"><i class="fab fa-js"></i> JavaScript</span>
+                  <span class="project-tag"><i class="fab fa-github"></i> GitHub Pages</span>
+                </div>
+              </div>
+
+              <!-- Boutons d'action -->
+              <div class="project-links">
+                <a href="#projets" class="project-link-btn primary" title="Voir le projet en ligne">
+                  <i class="fas fa-arrow-up-right-from-square"></i>
+                  <span>Voir le projet en ligne</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn secondary" title="Code source GitHub">
+                  <i class="fab fa-github"></i>
+                  <span>Code source GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 : Portfolio Professionnel Tech -->
+          <div class="col-lg-6">
+            <div class="tech-card project-card">
+              <div>
+                <!-- Visuel Projet -->
+                <div class="project-visual">
+                  <span class="project-type-tag">Site Vitrine &amp; Branding</span>
+                  <i class="fas fa-id-card-clip project-visual-icon"></i>
+                </div>
+
+                <h3 class="h4 mb-2">Portfolio Professionnel Tech</h3>
+                <p>
+                  Site vitrine responsive moderne mettant en lumière ma double compétence Support IT &amp; Intégration Web. Développé avec une charte graphique dark-mode élégante, des composants Bootstrap 5 personnalisés et une navigation one-page fluide.
+                </p>
+
+                <!-- Badges technologiques -->
+                <div class="project-tags">
+                  <span class="project-tag"><i class="fab fa-bootstrap"></i> Bootstrap 5</span>
+                  <span class="project-tag"><i class="fab fa-git-alt"></i> Git</span>
+                  <span class="project-tag"><i class="fas fa-rocket"></i> Antigravity</span>
+                  <span class="project-tag"><i class="fas fa-mobile-screen"></i> Responsive UI</span>
+                </div>
+              </div>
+
+              <!-- Boutons d'action -->
+              <div class="project-links">
+                <a href="#hero" class="project-link-btn primary" title="Prévisualiser ce portfolio">
+                  <i class="fas fa-eye"></i>
+                  <span>Voir la démo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn secondary" title="Code source GitHub">
+                  <i class="fab fa-github"></i>
+                  <span>Code source GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. SECTION EXPÉRIENCES & PARCOURS (TIMELINE)
+         ========================================================================== -->
+    <section id="experiences" class="section-padding">
+      <div class="container">
+        <div class="text-center section-header">
+          <span class="section-tag"><i class="fas fa-timeline"></i> Parcours</span>
+          <h2 class="section-title">Expériences &amp; Formation</h2>
+          <p class="section-subtitle">
+            Une trajectoire alliant apprentissage académique en développement logiciel, expérience terrain en support IT et aptitudes pédagogiques éprouvées.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="timeline-container">
+              <!-- Item 1 : Stage Prosuma -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="tech-card">
+                  <span class="timeline-badge">2025 - Présent</span>
+                  <h3 class="timeline-role">Stage Technicien Support Informatique</h3>
+                  <div class="timeline-org">
+                    <i class="fas fa-building"></i> Prosuma
+                  </div>
+                  <p class="timeline-desc">
+                    Prise en charge active des missions de support informatique et de maintenance de parc :
+                  </p>
+                  <ul class="atout-list mb-0">
+                    <li><i class="fas fa-angle-right"></i> Déploiement et masterisation d'ordinateurs sous Windows 10 / Windows 11.</li>
+                    <li><i class="fas fa-angle-right"></i> Support utilisateur N1 &amp; N2 : résolution des pannes matérielles, logicielles et périphériques.</li>
+                    <li><i class="fas fa-angle-right"></i> Gestion des demandes d'intervention, suivi du parc et clôture rigoureuse des tickets d'incidents.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Item 2 : DUT Informatique Développeur d'Applications -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="tech-card">
+                  <span class="timeline-badge">2025 - 2026</span>
+                  <h3 class="timeline-role">DUT Informatique Développeur d'Applications (IDA)</h3>
+                  <div class="timeline-org">
+                    <i class="fas fa-graduation-cap"></i> Institut Booster
+                  </div>
+                  <p class="timeline-desc">
+                    Formation d'excellence axée sur l'analyse, la modélisation et le développement d'applications informatiques :
+                  </p>
+                  <ul class="atout-list mb-0">
+                    <li><i class="fas fa-angle-right"></i> Algorithmique, bases de données relationnelles et architectures logicielles.</li>
+                    <li><i class="fas fa-angle-right"></i> Intégration web moderne (HTML5, CSS3, JavaScript) et bonnes pratiques de programmation.</li>
+                    <li><i class="fas fa-angle-right"></i> Gestion de versions avec Git et méthodologies de travail collaboratif.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Item 3 : Enseignant GS Marie Cathy -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="tech-card">
+                  <span class="timeline-badge">2021 - 2023</span>
+                  <h3 class="timeline-role">Enseignant</h3>
+                  <div class="timeline-org">
+                    <i class="fas fa-school"></i> GS Marie Cathy
+                  </div>
+                  <p class="timeline-desc">
+                    Expérience humaine fondamentale ayant façonné mes aptitudes relationnelles et ma méthode de travail :
+                  </p>
+                  <ul class="atout-list mb-0">
+                    <li><i class="fas fa-angle-right"></i> Capacité à vulgariser des notions complexes avec pédagogie, clarté et bienveillance.</li>
+                    <li><i class="fas fa-angle-right"></i> Sens prononcé de l'écoute, de la gestion du stress et de la relation humaine.</li>
+                    <li><i class="fas fa-angle-right"></i> Rigueur dans la préparation, l'organisation et la transmission des savoirs.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. FOOTER & CONTACT
+         ========================================================================== -->
+    <section id="contact" class="section-padding" style="background-color: var(--bg-secondary) !important;">
+      <div class="container">
+        <div class="text-center section-header">
+          <span class="section-tag"><i class="fas fa-envelope"></i> Me contacter</span>
+          <h2 class="section-title">Discutons de votre projet</h2>
+          <p class="section-subtitle">
+            Vous recherchez un technicien support réactif ou un intégrateur web consciencieux ? Échangeons ensemble !
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Coordonnées & Liens directs -->
+          <div class="col-lg-5">
+            <div class="contact-info-card h-100 d-flex flex-direction-column justify-content-between">
+              <div>
+                <h3 class="h4 mb-3">Coordonnées professionnelles</h3>
+                <p class="text-secondary mb-4">
+                  N'hésitez pas à me joindre directement par email, téléphone ou via mes profils professionnels en ligne.
+                </p>
+
+                <!-- Email -->
+                <a href="mailto:contact@aboubacar-soumahoro.tech" class="contact-link-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="label">Email</span>
+                    <span class="value">contact@aboubacar-soumahoro.tech</span>
+                  </div>
+                </a>
+
+                <!-- Téléphone -->
+                <a href="tel:+22500000000" class="contact-link-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="label">Téléphone</span>
+                    <span class="value">+225 (Contact direct)</span>
+                  </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="label">LinkedIn</span>
+                    <span class="value">linkedin.com/in/aboubacar-soumahoro</span>
+                  </div>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="label">GitHub</span>
+                    <span class="value">github.com/aboubacar-soumahoro</span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Statut de disponibilité -->
+              <div class="mt-4 p-3 rounded-3" style="background: rgba(56, 189, 248, 0.05); border: 1px dashed var(--border-glow);">
+                <div class="d-flex align-items-center gap-2 text-cyan fw-semibold mb-1">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Disponibilité immédiate</span>
+                </div>
+                <small class="text-muted">Prêt pour des opportunités en Support IT ou Intégration Web Front-End.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire de contact -->
+          <div class="col-lg-7">
+            <div class="tech-card h-100">
+              <h3 class="h4 mb-3">Envoyer un message</h3>
+              <p class="text-secondary mb-4">
+                Laissez-moi un message et je vous répondrai dans les plus brefs délais.
+              </p>
+
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="userName" class="form-label small text-secondary fw-semibold">Nom complet *</label>
+                    <input type="text" class="form-control form-control-custom" id="userName" placeholder="Ex: Jean Dupont" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="userEmail" class="form-label small text-secondary fw-semibold">Adresse Email *</label>
+                    <input type="email" class="form-control form-control-custom" id="userEmail" placeholder="nom@exemple.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="userSubject" class="form-label small text-secondary fw-semibold">Objet du message</label>
+                    <input type="text" class="form-control form-control-custom" id="userSubject" placeholder="Ex: Opportunité Support IT / Projet Web">
+                  </div>
+                  <div class="col-12">
+                    <label for="userMessage" class="form-label small text-secondary fw-semibold">Votre message *</label>
+                    <textarea class="form-control form-control-custom" id="userMessage" rows="5" placeholder="Décrivez votre besoin ou proposition..." required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn-tech-primary w-100 justify-content-center py-3">
+                      <i class="fas fa-paper-plane me-2"></i>
+                      <span>Envoyer le message</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Zone d'alerte feedback interactive -->
+                <div id="formFeedback" class="d-none"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       8. FOOTER (COPYRIGHT & MENTIONS)
+       ========================================================================== -->
+  <footer class="footer-bottom text-center">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          <span class="fw-bold text-white">AS</span><span class="text-cyan">.tech</span> — Aboubacar Soumahoro
+        </div>
+        <div>
+          <p class="mb-0">
+            &copy; <span id="current-year">2026</span> Aboubacar Soumahoro - Tous droits réservés
+          </p>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-secondary hover-cyan" title="GitHub">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-secondary hover-cyan" title="LinkedIn">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a href="mailto:contact@aboubacar-soumahoro.tech" class="text-secondary hover-cyan" title="Email">
+            <i class="fas fa-envelope fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bouton Scroll to Top -->
+  <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Retourner en haut de page">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 Bundle JS (avec Popper) via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Script interactif personnalisé -->
+  <script src="js/main.js"></script>
+</body>
+</html>
